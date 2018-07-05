@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# mikke_client
+サークルミッケ用クライアント
+>>>>>>> 8461d7666bb56c292908cf5b5d7c590e09b742cd
