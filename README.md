@@ -1,29 +1,15 @@
-<<<<<<< HEAD
-# README
+# rails5.2.0 on docker
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## to initialize
 
-Things you may want to cover:
+```bash
+git clone https://github.com/mmts7/rails520_on_docker.git
+cd rails520_on_docker
+script/init
+docker-compose up -d
+docker-compose exec rails rails hogepiyo
+```
 
-* Ruby version
+## License
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-=======
-# mikke_client
-サークルミッケ用クライアント
->>>>>>> 8461d7666bb56c292908cf5b5d7c590e09b742cd
+MIT
