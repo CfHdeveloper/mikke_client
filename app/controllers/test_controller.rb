@@ -9,5 +9,6 @@ class TestController < ApplicationController
         result = JSON.parse(json)
         puts result
         render :json => result
+        
     end
 end
