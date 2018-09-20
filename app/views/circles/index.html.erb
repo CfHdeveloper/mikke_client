@@ -11,5 +11,18 @@
 
   <body>
     <p>circles</p>
+    <ul>
+      <h2><%= @details['name'] %></h2>
+      <p><%= @details['profile'] %></p>
+      <p><%= @details['description'] %></p>
+      <p>members : <%= @details['members'] %></p>
+      <ul>
+        <li>https://www.facebook.com/<%= @details['link']['facebook'] %></li>
+        <li>https://twitter.com/<%= @details['link']['twitter'] %></li>
+        <li>https://www.instagram.com/<%= @details['link']['instagram'] %></li>
+        <li><%= @details['link']['homepage'] %></li>
+      </ul>
+      <p>founded on <%= @details['founded'] %></p>
+    </ul>
   </body>
 </html>

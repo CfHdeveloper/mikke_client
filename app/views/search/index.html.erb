@@ -11,5 +11,17 @@
 
   <body>
     <p>search</p>
+    <p>genre : <%= @genre %></p>
+  
+    <% @circles['circles'].each do |circle| %>
+    <div>
+      <ul>
+        <% circle.each do |key,value| %>
+        <li><%= key %> : <%= value %></li>
+        <% end %>
+      </ul>
+    </div>
+    <% end %>
+    <a href="/circles/hoge">jump</a>
   </body>
 </html>

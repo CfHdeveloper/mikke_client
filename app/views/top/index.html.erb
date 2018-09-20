@@ -11,5 +11,15 @@
 
   <body>
     <p>hello world</p>
+    <ul>
+      <% @response['categories'].each do |category,details| %>
+      <li><%= category %></li>
+      <ul>
+        <% details.each do |detail| %>
+        <li><a href='search/?genre=<%= detail %>'><%= detail %></a></li>
+        <% end %>
+      </ul>
+      <% end %>
+    </ul>
   </body>
 </html>
